@@ -1,0 +1,39 @@
+@font-face {
+    font-family: DepartureMonoNerdFont;
+    src: url("/Fonts_NerdFont/DepartureMonoNerdFont-Regular.otf");
+}
+
+.DepartureMonoNerdFont{
+    font-family: DepartureMonoNerdFont;
+}
+
+p {
+    color : red;
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#titulo1 {
+    color: aliceblue;
+    background-color: rgb(95, 96, 160);
+    text-align: center;
+}
+
+.grupo1{
+    text-align: center;
+}
+
+.playfair-display{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.enlaces:visited{
+    color:rgb(116, 202, 98)
+}
+
+.hover_peru:hover {
+    background-color: peru;
+}
+
