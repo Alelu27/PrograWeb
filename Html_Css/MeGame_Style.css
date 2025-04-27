@@ -1,0 +1,50 @@
+body {
+    background-color: #fafafa;
+}
+
+#titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#caja {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #fff8dc;
+    display: flexz;
+    justify-content: center;
+    align-items: center;
+}
+
+.memory-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px; /* Controlamos ancho máximo */
+}
+
+.memory-card {
+    width: 90px;
+    height: 90px;
+    background-color: #ffc107;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/*Para que tenga un salito o agrandarse */
+.memory-card:hover {
+    transform: scale(1.1);
+    background-color: #ffca2c;
+}

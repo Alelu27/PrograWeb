@@ -1,0 +1,77 @@
+body {
+    margin: 40px 60px;
+    font-family: Arial, sans-serif;
+}
+
+#titulo {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #f7c9ff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.encabezado {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #fbe3ff;
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Agregamos estilo a la fila */
+.row-datos {
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.dati, .espacifoto {
+    padding: 50px;
+}
+
+.espacifoto {
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    justify-content: flex-end; /* ¡Mueve el contenido hacia la derecha! */
+}
+
+/* Hacemos que la imagen se adapte 
+#imagen {
+    border: 2px solid #333;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+*/
+#imagen {
+    border: 2px solid #333;
+    width: 80%;         /* Antes era 100% */
+    max-width: 150px;   /* Ahora limita a 150px de ancho máximo */
+    height: auto;
+    border-radius: 8px;
+}
+
+p, li {
+    font-size: 16px;
+    text-align: left;
+}
+
+#nombre {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+ul {
+    padding-left: 20px;
+}

@@ -1,0 +1,128 @@
+/* General de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.pagina {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px; /* espacio entre los bloques */
+}
+
+/* Bloque del título */
+.bloque-titulo {
+    border: 2px solid black;
+    padding: 10px;
+    width: 50%; /* Título ocupa el 50% */
+    margin: 0;
+}
+
+/* Bloque del logo */
+.bloque-logo {
+    width: 40%;
+    padding: 10px;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.bloque-logo img {
+    max-width: 100%; /* Nunca será más grande que su caja */
+    height: auto;    /* Mantiene proporciones */
+}
+
+/* Parte izquierda: Titulo + Subtitulo */
+.izquierda {
+    text-align: left;
+}
+
+.izquierda h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.izquierda h2 {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+}
+
+/* Contenedor de secciones principales */
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /*flex-start - cada uno a su nivel*/
+    margin: 10px;
+}
+
+/* Menú lateral */
+.menu {
+    width: 20%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Contenido noticia */
+.contenido {
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* Imagen lateral */
+.imagen {
+    width: 20%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen img {
+    width: 100px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer-izq, .footer-der {
+    border: 2px solid black;
+    padding: 10px;
+    width: 45%;
+    text-align: center;
+}
+
+.footer-der a {
+    text-decoration: none;
+    color: blue;
+}
