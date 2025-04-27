@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="/Todo/Ejercicio1.css">
+    <script defer src="/Todo/Ejercicio1.js"></script>
+</head>
+<body>
+    <form>
+        
+        <!-- Nombres -->
+        <div>    
+            <label id="decorado" for="nombres">Nombre y Apellido: </label><br>
+            <input type="text" id="nombres" name="nombres" placeholder="Escribe tu nombre"><br>
+            <div id="divErrorNom"></div>
+        </div>
+        
+        <!-- Correo -->
+        <div>
+            <label id="decorado" for="correo">Correo: </label><br>
+            <input type="text" id="correo" name="correo" placeholder="Escribe tu correo"><br>
+            <div id="divErrorCorr"></div>
+        </div>
+        
+        <!-- Mensaje -->
+        <div>
+            <label id="decorado" for="mensaje">Mensaje: </label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+            <div id="divErrorMen"></div>
+        </div>
+        
+        <!-- Botón -->
+        </div>
+            <button id="boton" type="submit">Enviar</button>
+        </div>
+
+        <!-- Mensaje de resultado -->
+        <div id="mensajeResultado"></div>
+
+    </form>
+</body>
+</html>

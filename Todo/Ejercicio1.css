@@ -1,0 +1,11 @@
+#decorado {
+    background-color: rgb(208, 255, 239);
+}
+
+input, label, textarea, button, div {
+    margin-bottom: 10px; /* espacio entre campos */
+}
+
+button {
+    display: block;
+}
