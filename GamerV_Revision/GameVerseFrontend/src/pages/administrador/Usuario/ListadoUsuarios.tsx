@@ -13,8 +13,8 @@ interface User {
 }
 
 const usuarios: User[] = [
-  { id: 1, usuario: 'Gaming', correo: 'gaming@gmail.com', imagen: Gaming },
-  { id: 2, usuario: 'Mualani', correo: 'mualani@gmail.com', imagen: Mualani },
+  { id: 1, usuario: 'Gaming', correo: 'gamingyp@gmail.com', imagen: Gaming },
+  { id: 2, usuario: 'Mualani', correo: 'mualani2@gmail.com', imagen: Mualani },
   { id: 3, usuario: 'Navia', correo: 'navia@gmail.com', imagen: Navia },
 ];
 
