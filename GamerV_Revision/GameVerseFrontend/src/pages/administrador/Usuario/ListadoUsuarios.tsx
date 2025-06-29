@@ -7,15 +7,15 @@ import '../../../css/ListaUser.css';
 
 interface User {
   id: number;
-  nickname: string;
-  name: string;
+  usuario: string;
+  correo: string;
   imagen: string; 
 }
 
 const usuarios: User[] = [
-  { id: 1, nickname: 'Gaming', name: 'Yip Gaming', imagen: Gaming },
-  { id: 2, nickname: 'Mualani', name: 'Mualani Umoja', imagen: Mualani },
-  { id: 3, nickname: 'Navia', name: 'Navia Caspar', imagen: Navia },
+  { id: 1, usuario: 'Gaming', correo: 'gaming@gmail.com', imagen: Gaming },
+  { id: 2, usuario: 'Mualani', correo: 'mualani@gmail.com', imagen: Mualani },
+  { id: 3, usuario: 'Navia', correo: 'navia@gmail.com', imagen: Navia },
 ];
 
 const MainContent = () => {
@@ -32,17 +32,17 @@ const MainContent = () => {
                     <tr>
                       <th>Id</th>
                       <th>Foto</th>
-                      <th>Alias </th>
-                      <th>Nombre</th>
+                      <th>Usuario </th>
+                      <th>Correo</th>
                     </tr>
                   </thead>
                   <tbody>
                     {usuarios.map(user => (
                       <tr key={user.id}>
                         <td>{user.id}</td>
-                        <td><img src={user.imagen} alt={user.name} className="user-photo" /></td>
-                        <td>{user.nickname}</td>
-                        <td>{user.name}</td>
+                        <td><img src={user.imagen} alt={user.correo} className="user-photo" /></td>
+                        <td>{user.usuario}</td>
+                        <td>{user.correo}</td>
                       </tr>
                     ))}
                   </tbody>
